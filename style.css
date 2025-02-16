@@ -1,26 +1,25 @@
 #calc-container {
     width: 300px;
     height: 450px;
-    border: solid 2px black;
 }
 #upper-part-container{
     width: 300px;
     height: 100px;
-    border: solid 2px black;
+    background-color: rgb(105, 24, 24);
+    display: flex;
 }
 #buttons-container{
     max-width: 300px;
     max-width: 350px;
-    border: solid 2px black;
     display: flex;
     flex-wrap: wrap;
     padding: 8px;
     gap: 8px;
     justify-content: space-between;
-    
+    background-color: rgb(52, 157, 52);
 }
 .calc-button {
-    width: 50px;
+    width: 55px;
     height: 40px;
     border: solid 2px black;
     border-radius: 4px;
@@ -33,4 +32,25 @@
 
 .rest, .divition, .multiply, .minus, .sum{
     color: red;
+}
+#dark-mode, #light-mode{
+    width: 40px;
+    height: 30px;
+    
+}
+#dark-mode{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#light-mode {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#dark-mode img, #light-mode img{
+    width: 20px;
+}
+#calc-switch-mode-container{
+    display: flex;
+    
+    
 }
