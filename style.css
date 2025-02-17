@@ -51,7 +51,7 @@
     align-items: center;
 }
 #calc-switch-mode-container{
-    display: block;
+    display: flex;
     margin: 8px;
     height: 26px;
     
