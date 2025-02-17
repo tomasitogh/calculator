@@ -6,8 +6,7 @@
     width: 300px;
     height: 100px;
     background-color: rgb(105, 24, 24);
-    display: flex;
-    justify-content: end;
+    display: block;
 }
 #buttons-container{
     max-width: 300px;
@@ -50,10 +49,23 @@
     width: 20px;
     align-items: center;
 }
-#calc-switch-mode-container{
+#upper-buttons{
     display: flex;
-    margin: 8px;
+    justify-content: end;
+    padding: 8px;
     height: 26px;
+}
+#calc-switch-mode-container{
     
-    
+}
+#current-calcs input{
+    background-color: rgb(105, 24, 24);
+    border: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    color: white;
+}
+#remaining-calcs div{
+    height: 20px;
 }
