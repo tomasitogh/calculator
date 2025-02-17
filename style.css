@@ -7,6 +7,7 @@
     height: 100px;
     background-color: rgb(105, 24, 24);
     display: flex;
+    justify-content: end;
 }
 #buttons-container{
     max-width: 300px;
@@ -35,8 +36,7 @@
 }
 #dark-mode, #light-mode{
     width: 40px;
-    height: 30px;
-    
+    height: 26px;
 }
 #dark-mode{
     border-top-right-radius: 12px;
@@ -48,9 +48,12 @@
 }
 #dark-mode img, #light-mode img{
     width: 20px;
+    align-items: center;
 }
 #calc-switch-mode-container{
-    display: flex;
+    display: block;
+    margin: 8px;
+    height: 26px;
     
     
 }
