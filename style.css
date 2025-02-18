@@ -24,6 +24,12 @@
     height: 40px;
     border: solid 2px black;
     border-radius: 4px;
+    background-color: rgb(200, 200, 200);
+    transition: background-color 0.3s, color 0.3s;
+}
+.calc-button:hover{
+    background-color: rgb(156, 152, 152);
+    color: white;
 }
 
 .calc-button.equal{
@@ -65,7 +71,15 @@
     box-sizing: border-box;
     text-align: right;
     color: white;
+    font-size: 20px;
+}
+#current-calcs{
+    height: 38px;
 }
 #remaining-calcs div{
+    box-sizing: border-box;
+    text-align: right;
     height: 20px;
+    font-size: 14px;
+    color: white;
 }
