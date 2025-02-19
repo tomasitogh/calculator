@@ -58,8 +58,8 @@ lightMode.addEventListener("click", () => {
                 btn.style.cssText = "background-color: rgb(200, 200, 200)); color: black";
             }
     })
-    currentCalcs.style.cssText = "color: black";
-    remainingCalcs.style.cssText = "color: black";
+    currentCalcs.style.cssText = "color: white";
+    remainingCalcs.style.cssText = "color: white";
 });
 
 darkMode.addEventListener("click", () => {
@@ -89,8 +89,8 @@ darkMode.addEventListener("click", () => {
                 btn.style.cssText = "background-color: rgb(43, 43, 43); color: white";
             }
     })
-    currentCalcs.style.cssText = "color: white";
-    remainingCalcs.style.cssText = "color: white";
+    currentCalcs.style.cssText = "color: black";
+    remainingCalcs.style.cssText = "color: black";
 });
 //AC function
 btnAc.addEventListener("click", () => {
